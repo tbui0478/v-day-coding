@@ -170,3 +170,15 @@ ul li{
   top: 25%;
   left: 10%;
 }
+
+#eternal-romance-body {
+  background-image: url('../images/eternal-romance.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#eternal-romance-div {
+  color: var(--vanilla);
+  text-align: center;
+  margin-top: 30vh;
+}
