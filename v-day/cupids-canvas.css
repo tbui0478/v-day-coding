@@ -22,6 +22,12 @@
   }
 }
 
+body{
+  background-color: var(--cupid-pink);
+  margin: 0;
+  padding: 0;
+}
+
 /* CSS-only page navigation with :target */
 .page {
   display: none;
@@ -42,3 +48,72 @@
   animation: heartbeat 1.5s ease-in-out infinite;
 }
 
+nav {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  background-color: var(--love-purple);
+  padding: 0px;
+  margin: 0px;
+  position: sticky;
+  align-items: center;
+}
+
+nav img {
+  width: 20%;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  margin-left: 5%;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: xx-large;
+  color: var(--vanilla);
+ 
+}
+
+nav ul {
+  width: 80%;
+  margin-left: 40%;
+}
+
+ul li{
+  display: inline;
+  margin-right: 5%;
+}
+
+#cupids-garden-body {
+  background-image: url('../images/cupids-garden.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#cupids-garden-body h1 {
+  color: var(--vanilla);
+  text-align: center;
+  margin-top: 30vh;
+}
+
+#cupids-garden-body p {
+  color: var(--vanilla);
+  text-align: center;
+  font-size: large;
+  width: 70%;
+  margin: auto;
+}
+
+#cupid-in-garden {
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+#cupid-white-background {
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
