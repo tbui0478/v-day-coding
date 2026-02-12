@@ -13,6 +13,7 @@
   --space-4: 2rem;
 }
 
+
 /* Reduced Motion Preferences */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -41,4 +42,57 @@
 .heart {
   animation: heartbeat 1.5s ease-in-out infinite;
 }
+
+body {
+  background: var(--cupid-pink);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.first-page {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.begin {
+  gap: 20px;
+  justify-content: space-between;
+  width: 500px;
+  height: 500px;
+  color: var(--vanilla);
+  margin: 50px;
+}
+
+.begin h1 {
+  text-align: right;
+  padding: 140px;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.begin p {
+  text-align: left;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.begin:hover {
+  border-radius: 20px;
+}
+
+.cupid {
+  width: 370px;
+  height: 360px;
+  padding: 20px;
+  margin: 120px;
+  border-radius: 20px;
+}
+
+.cupid:hover {
+  background: #c77dff;
+  transition: 2s ease-in;
+}
+
 
